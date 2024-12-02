@@ -6,7 +6,9 @@ second = input()
 third = input()
 if first == second and third == first :
     print(3)
-elif first == second or third == first:
+elif (first == second
+      or second == third
+      or third == first):
     print(2)
 else:
     print(0)
